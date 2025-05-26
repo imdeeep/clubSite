@@ -12,29 +12,57 @@ export default function Home() {
   return (
     <Layout>
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-blue-600 via-purple-600 to-indigo-700 text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-          <div className="text-center">
-            <h1 className="text-4xl md:text-6xl font-bold mb-6">
-              Welcome to <span className="text-yellow-400">Tech Club</span>
-            </h1>
-            <p className="text-xl md:text-2xl mb-8 text-blue-100 max-w-3xl mx-auto">
-              Where innovation meets collaboration. Join us to learn, build, and create amazing things together.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors">
-                Join Now
-              </button>
-              <button className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors">
-                Learn More
-              </button>
-            </div>
-          </div>
-        </div>
-      </section>
+     
+      <section
+  className="relative bg-cover bg-center"
+  style={{ height: "90vh" }}
+>
+  <img
+    src="/images/hero.webp"
+    alt="Hero Background"
+    className="absolute inset-0 w-full h-full object-cover"
+  />
+  <div className="absolute inset-0 bg-black/55"></div>
+
+  <div className="relative max-w-[95vw] mx-auto px-6 sm:px-32 pt-14 h-full flex flex-col justify-center">
+    {/* Logo & Title Row */}
+    <div className="flex items-center gap-6 mb-4 ">
+      <div>
+        <h2 className="text-white/80 text-xl sm:text-2xl font-bold tracking-wider uppercase">
+          Welcome to Abhyudaya Coding Club
+        </h2>
+      </div>
+    </div>
+
+    {/* Highlighted Text */}
+    <h3 className="text-white text-2xl sm:text-6xl font-bold mb-2 max-w-[80vw] ">
+      Igniting the passion in{' '}
+      <span className="inline-block bg-[#EA6E10] text-white px-4 py-2 rounded-md -rotate-2 transform shadow-md">
+        future coders
+      </span>{' '}
+      to lead with technology.
+    </h3>
+
+    {/* Subtext */}
+    <p className="text-blue-100 text-lg sm:text-xl max-w-2xl mb-10">
+      Dive into the world of innovation, creativity, and collaboration. Join us
+      to build projects, compete in hackathons, and shape your tech journey.
+    </p>
+
+    {/* CTA Buttons */}
+    <div className="flex flex-col sm:flex-row gap-4">
+      <button className="bg-blue-500 hover:bg-blue-600 text-white px-8 py-3 rounded-full font-bold shadow-lg transition">
+        Join the Club
+      </button>
+      <button className="border-2 border-white text-white px-8 py-3 rounded-full font-bold hover:bg-white hover:text-blue-600 transition">
+        Upcoming Events
+      </button>
+    </div>
+  </div>
+</section>
 
       {/* Features Section */}
-      <section className="py-20 bg-gray-50 dark:bg-gray-800">
+      <section className="py-20 ">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">
