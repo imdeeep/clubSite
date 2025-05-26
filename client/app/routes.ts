@@ -1,3 +1,14 @@
-import { type RouteConfig, index } from "@react-router/dev/routes";
+import { type RouteConfig, index, route } from "@react-router/dev/routes";
 
-export default [index("routes/home.tsx")] satisfies RouteConfig;
+export default [
+  index("routes/home.tsx"),
+  route("scrapbook", "routes/gallery.tsx"),
+  route("events", "routes/events.tsx"),
+  route("hackathons", "routes/hackathons.tsx"),
+  route("blogs", "routes/blogs.tsx"),
+  route("admin", "routes/admin/_layout.tsx", [
+    index("routes/admin/dashboard.tsx"),
+    route("gallery-management", "routes/admin/gallery-management.tsx"),
+    route("hackathon-management", "routes/admin/hackathon-management.tsx")
+  ])
+] satisfies RouteConfig;
