@@ -31,16 +31,16 @@ const Navigation = () => {
   return (
     <nav
       className={`fixed w-full py-1 top-0 z-50 transition-all duration-300 ${
-        scrolled ? "bg-white/50 backdrop-blur-md shadow-md" : "bg-transparent"
+        scrolled ? "bg-[#0A1D3D]/80 backdrop-blur-md shadow-md" : "bg-transparent"
       }`}
     >
-      <div className="max-w-7xl mx-auto ">
-        <div className="flex justify-between items-center  h-16 ">
+        <div className="max-w-7xl mx-auto px-4">
+        <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center user-select-none">
             <Link to="/" className="flex items-center space-x-2">
               <img
-              src={scrolled ? "/images/logo1.png" : "/images/logo2.png"}
+              src={"/images/logo2.png"}
               alt="Club Logo"
               className={`no-drag pointer-events-none user-select-none transition-all duration-150 ${
                 scrolled ? "h-10 w-auto sm:h-14" : "h-15 w-auto sm:h-16"
@@ -51,17 +51,19 @@ const Navigation = () => {
 
           {/* Desktop Nav */}
           <div className="hidden md:block">
-            <div className="ml-10 flex items-baseline space-x-4">
+            <div className="ml-10 flex items-baseline space-x-6">
               {navItems.map((item) => (
                 <Link
                   key={item.path}
                   to={item.path}
-                  className={`px-3 py-2 rounded-md text-md font-medium transition-colors duration-200
-                    ${
-                      scrolled
-                        ? "text-black hover:text-black/80"
-                        : "text-white hover:text-white/80"
-                    }`}
+                  className={`px-3 py-2 rounded-md text-lg font-medium transition-all duration-300 hover:scale-105
+                    isActive(item.path)
+                        ? scrolled 
+                          ? "text-[#FFE600]" 
+                          : "text-[#FFE600]"
+                        : scrolled
+                          ? "text-white hover:text-[#F5B282]"
+                          : "text-white hover:text-[#F5B282]"`}
                 >
                   {item.label}
                 </Link>
