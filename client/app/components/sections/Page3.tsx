@@ -2,7 +2,7 @@ import { Link } from "react-router";
 
 export default function Page3() {
   return (
-    <div className="bg-gradient-to-b from-white to-gray-50 min-h-screen flex flex-col justify-center items-center max-w-[95vw] mx-auto px-6 sm:px-32 pb-20 text-[#0A1D3D]">
+    <div className="bg-gradient-to-b from-white to-gray-50 py-20 flex flex-col justify-center items-center max-w-[95vw] mx-auto px-6 sm:px-32 text-[#0A1D3D]">
       <h1 className="text-[3.5rem] fbold text-center mb-2 animate-fade-in">
         Explore our{" "}
         <span className="bg-[#0A1D3D] text-white px-4 py-2 rounded-lg transform hover:scale-105 transition-transform">

@@ -5,6 +5,9 @@ import Page1 from "~/components/sections/Page1";
 import Page2 from "~/components/sections/Page2";
 import Page3 from "~/components/sections/Page3";
 import Page4 from "~/components/sections/Page4";
+import Page5 from "~/components/sections/Page5";
+import Page6 from "~/components/sections/Page6";
+import Page7 from "~/components/sections/Page7";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -89,6 +92,29 @@ export default function Home() {
       <section className="">
         <Page4 />
       </section>
+
+      {/* Page5 : Leadership */}
+      <section className="">
+        <Page5/>
+      </section>
+
+      {/* Page6 : Our Team*/}
+      <section className="">
+        <Page6/>
+      </section>
+
+      {/* Page7 : Find your second home at Abhyudaya*/}
+      <section className="">
+        <Page7/>
+      </section>
+
+      {/* Page8 : About and newsletter*/}
+      <section className="">
+        {/* <Page8/> */}
+      </section>
+      
+
+
     </Layout>
   );
 }
