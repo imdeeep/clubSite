@@ -8,6 +8,7 @@ import Page4 from "~/components/sections/Page4";
 import Page5 from "~/components/sections/Page5";
 import Page6 from "~/components/sections/Page6";
 import Page7 from "~/components/sections/Page7";
+import Page8 from "~/components/sections/Page8";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -110,7 +111,7 @@ export default function Home() {
 
       {/* Page8 : About and newsletter*/}
       <section className="">
-        {/* <Page8/> */}
+        <Page8/>
       </section>
       
 

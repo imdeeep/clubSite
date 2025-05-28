@@ -1,5 +1,6 @@
 import { Link } from "react-router";
 import { FaDiscord, FaTwitter, FaGithub, FaFacebook } from "react-icons/fa";
+import { PiWhatsappLogoThin } from "react-icons/pi";
 
 const Footer = () => {
   return (
@@ -27,12 +28,17 @@ const Footer = () => {
         <ul className="space-y-2 text-md">
           <li>
           <Link to="/philosophy" className="text-[#D1D5DB] hover:text-[#F5B282] transition-colors">
-            Philosophy
+            Competition and Hackathons
           </Link>
           </li>
           <li>
           <Link to="/team" className="text-[#D1D5DB] hover:text-[#F5B282] transition-colors">
-            Team
+            Teams
+          </Link>
+          </li>
+          <li>
+          <Link to="/blogs" className="text-[#D1D5DB] hover:text-[#F5B282] transition-colors">
+            Blogs
           </Link>
           </li>
         </ul>
@@ -48,7 +54,12 @@ const Footer = () => {
           </li>
           <li>
           <Link to="/toolbox" className="text-[#D1D5DB] hover:text-[#F5B282] transition-colors">
-            Toolbox
+            Projects
+          </Link>
+          </li>
+          <li>
+          <Link to="/scrapbook" className="text-[#D1D5DB] hover:text-[#F5B282] transition-colors">
+            Scrapbook
           </Link>
           </li>
         </ul>
@@ -65,9 +76,6 @@ const Footer = () => {
           </a>
           <a href="#" className="text-[#D1D5DB] hover:text-white transition-colors">
           <FaGithub size={24} />
-          </a>
-          <a href="#" className="text-[#D1D5DB] hover:text-white transition-colors">
-          <FaFacebook size={24} />
           </a>
         </div>
         <div className="text-[#D1D5DB] text-sm pl-2">
