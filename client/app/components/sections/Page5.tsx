@@ -4,7 +4,7 @@ import { leader } from "~/lib/leader";
 
 export default function Page5() {
   return (
-    <div className="bg-white flex flex-col items-center max-w-[95vw] h-auto pt-15 pb-20 mx-auto px-6 sm:px-32 text-[#0A1D3D]">
+    <div className="bg-white flex flex-col items-center max-w-[95vw] h-auto mx-auto px-6 sm:px-32 text-[#0A1D3D]">
       <div className="text-center">
         <h1 className="text-6xl fbold font-bold mb-2">
           <span className="bg-gradient-to-r px-2 rounded-lg text-white from-[#0A1D3D] via-[#0A1D3D]/80 to-[#FFE600] ">

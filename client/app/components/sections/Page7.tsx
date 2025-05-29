@@ -42,7 +42,7 @@ export default function Page7() {
   ];
 
   return (
-    <div className="bg-white flex flex-col items-center max-w-[95vw] h-auto pt-15 pb-20 mx-auto px-6 sm:px-32 text-[#0A1D3D]">
+    <div className="bg-white flex flex-col items-center max-w-[95vw] h-auto mx-auto px-6 sm:px-32 text-[#0A1D3D]">
       <div className="text-center">
         <h1 className="text-xl px-8 sm:px-36 text-gray-600/70 fbold tracking-wide mb-1">
           {"We've got a lot going on - Let's recap".toUpperCase()}

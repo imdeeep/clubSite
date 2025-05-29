@@ -1,7 +1,7 @@
 import {Link} from 'react-router-dom';
 export default function Page4() {
     return (
-        <div className="bg-white flex flex-col items-center max-w-[95vw] h-auto pt-15 pb-20 mx-auto px-6 sm:px-32 text-[#0A1D3D]">
+        <div className="bg-white flex flex-col items-center max-w-[95vw] h-auto mx-auto px-6 sm:px-32 text-[#0A1D3D]">
             <div className="flex space-x-4 justify-center">
                 <div className="max-w-[70%]">
                     <h1 className="text-5xl fbold font-bold mb-2">
@@ -12,7 +12,7 @@ export default function Page4() {
                         and <br /> tools together.
                     </h1>
                     <p className="max-w-lg text-xl">
-                        In collaboration with engineers on the Hack Club team, Hack Clubbers
+                        In collaboration with engineers on the Abhyudaya team, Abhyudaya
                         build learning tools for each other. Get involved with these
                         projects by building something with our tools or contribute to the
                         tools themselves.

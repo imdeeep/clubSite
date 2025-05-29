@@ -1,6 +1,6 @@
 export default function Page1() {
   return (
-    <div className="bg-white flex flex-col max-w-[95vw] h-auto  pb-20 mx-auto px-6 sm:px-32 text-[#0A1D3D] ">
+    <div className="bg-white flex flex-col max-w-[95vw] h-auto mx-auto px-6 sm:px-32 text-[#0A1D3D] ">
       <div className="pt-15 pb-15">
         <h1 className="text-6xl fbold font-bold mb-4">
           Explore the{" "}

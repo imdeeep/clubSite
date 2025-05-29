@@ -3,7 +3,7 @@ import { member } from "~/lib/member";
 
 export default function Page6() {
   return (
-    <div className="bg-white flex flex-col items-center max-w-[95vw] h-auto py-15 mx-auto px-6 sm:px-32 text-[#0A1D3D]">
+    <div className="bg-white flex flex-col items-center max-w-[95vw] h-auto mx-auto px-6 sm:px-32 text-[#0A1D3D]">
       <div className="text-center">
         <h1 className="text-6xl fbold font-bold mb-2">
           Our{" "}

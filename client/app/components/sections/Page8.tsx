@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 export default function Page8() {
   return (
-    <div className="h-screen w-full py-15 mx-auto text-[#0A1D3D] relative overflow-hidden flex justify-center items-center">
+    <div className="h-screen w-full mx-auto text-[#0A1D3D] relative overflow-hidden flex justify-center items-center">
       <motion.div
         initial={{ scale: 1.2 }}
         animate={{ scale: 1.1 }}

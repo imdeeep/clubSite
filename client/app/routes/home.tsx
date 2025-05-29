@@ -12,7 +12,7 @@ import Page8 from "~/components/sections/Page8";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "Tech Club - Innovation Through Collaboration" },
+    { title: "Abhyudaya - Innovation Through Collaboration" },
     {
       name: "description",
       content:
@@ -75,37 +75,37 @@ export default function Home() {
       </section>
 
       {/* Page1 : Explore the world of coding with us.*/}
-      <section className="">
+      <section className="pt-8 pb-15">
         <Page1 />
       </section>
 
       {/* Page2 : Our Domains */}
-      <section className="py-15">
+      <section className="pt-12 pb-15">
         <Page2 />
       </section>
 
       {/* Page3 : Images and Gallary Yard */}
-      <section className="">
+      <section className="pt-12 pb-15">
         <Page3 />
       </section>
 
       {/* Page4 : Projects */}
-      <section className="">
+      <section className="pt-12 pb-15">
         <Page4 />
       </section>
 
       {/* Page5 : Leadership */}
-      <section className="">
+      <section className="pt-12 pb-15">
         <Page5/>
       </section>
 
       {/* Page6 : Our Team*/}
-      <section className="">
+      <section className="pt-12 pb-15">
         <Page6/>
       </section>
 
       {/* Page7 : Find your second home at Abhyudaya*/}
-      <section className="">
+      <section className="pt-12 pb-15">
         <Page7/>
       </section>
 

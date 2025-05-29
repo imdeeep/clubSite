@@ -3,7 +3,7 @@ import Layout from "../components/layout/Layout";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "Blogs - Tech Club" }
+    { title: "Blogs - Abhyudaya" }
   ];
 }
 

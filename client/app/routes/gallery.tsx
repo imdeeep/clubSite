@@ -3,7 +3,7 @@ import Layout from "../components/layout/Layout";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "Gallery - Tech Club" },
+    { title: "Gallery - Abhyudaya" },
     { name: "description", content: "Explore our collection of events, projects, and memorable moments." },
   ];
 }

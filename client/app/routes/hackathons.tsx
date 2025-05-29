@@ -3,7 +3,7 @@ import Layout from "../components/layout/Layout";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "Hackathons - Tech Club" },
+    { title: "Hackathons - Abhyudaya" },
     { name: "description", content: "Join our exciting hackathons and showcase your coding skills." },
   ];
 }
