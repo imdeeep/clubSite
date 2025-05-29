@@ -31,17 +31,17 @@ export const links: Route.LinksFunction = () => [
 ];
 
 export function Layout({ children }: { children: React.ReactNode }) {
-  useEffect(() => {
-    const lenis = new Lenis({
-      autoRaf: true,
-    });
+  // useEffect(() => {
+  //   const lenis = new Lenis({
+  //     autoRaf: true,
+  //   });
 
-    function raf(time: number) {
-      lenis.raf(time);
-      requestAnimationFrame(raf);
-    }
-    requestAnimationFrame(raf);
-  }, []);
+  //   function raf(time: number) {
+  //     lenis.raf(time);
+  //     requestAnimationFrame(raf);
+  //   }
+  //   requestAnimationFrame(raf);
+  // }, []);
   return (
     <html lang="en">
       <head>

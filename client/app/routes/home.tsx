@@ -25,10 +25,7 @@ export default function Home() {
   return (
     <Layout>
       {/* Hero Section */}
-      <section
-        className="relative bg-cover bg-center"
-        style={{ height: "90vh" }}
-      >
+      <section className="relative bg-cover bg-center h-[100vh] sm:h-[90vh]">
         <img
           src="/images/hero.webp"
           alt="Hero Background"
@@ -36,37 +33,37 @@ export default function Home() {
         />
         <div className="absolute inset-0 bg-[#0A1D3D]/55 backdrop-blur-[0.5px]"></div>
 
-        <div className="relative max-w-[95vw] mx-auto px-6 sm:px-32 pt-14 h-full flex flex-col justify-center">
-          <div className="flex items-center gap-6 mb-4 ">
+        <div className="relative max-w-[95vw] mx-auto px-6 sm:px-32 pt-20 sm:pt-14 h-full flex flex-col justify-center">
+          <div className="flex items-center gap-6 mb-4 sm:mb-2 ">
             <div>
               <h2 className="text-[#eebd9b] fbold text-xl sm:text-2xl font-bold tracking-wider uppercase">
                 Welcome to Abhyudaya Coding Club
               </h2>
             </div>
           </div>
-          <h3 className="fbold text-white text-2xl sm:text-6xl tracking-[1.5px] mb-2 max-w-[80vw] ">
+          <h3 className="fbold text-white text-4xl sm:text-6xl tracking-[1.5px] mb-2 max-w-[80vw] ">
             Igniting the passion in{" "}
-            <span className="inline-block bg-[#FF6A00] text-white px-4 py-2 rounded-md -rotate-4 transform shadow-md hover:rotate-0 hover:scale-105 transition-transform duration-300 ease-in-out">
+            <span className="inline-block bg-[#FF6A00] text-white px-2 sm:px-4 sm:py-2 rounded-md -rotate-4 transform shadow-md hover:rotate-0 hover:scale-105 transition-transform duration-300 ease-in-out">
               future coders
             </span>{" "}
             to lead with technology.
           </h3>
-          <p className="text-[#D1D5DB] text-lg sm:text-xl max-w-2xl mb-10">
+          <p className="text-[#D1D5DB] text-md sm:text-xl max-w-2xl mb-5 sm:mb-10">
             Dive into the world of innovation, creativity, and collaboration.
             Join us to build projects, compete in hackathons, and shape your
             tech journey.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4">
+          <div className="flex flex-col sm:flex-row gap-2 sm:gap-4">
             <Link
               to=""
-              className="bg-[#FFE600] hover:bg-[#FFE600]/90 text-[#0A1D3D] px-8 py-3 fbold tracking-wide rounded-full  shadow-lg transition text-lg"
+              className="bg-[#FFE600] hover:bg-[#FFE600]/90 text-[#0A1D3D] px-8 py-3 fbold tracking-wide rounded-full w-[60%] sm:w-auto shadow-lg transition text-lg"
             >
               JOIN THE CLUB
             </Link>
             <Link
               to=""
-              className="border-2 border-white text-white px-8 py-3 rounded-full fbold hover:bg-white hover:text-[#0A1D3D] transition tracking-wide text-lg"
+              className="border-2 border-white text-white px-8 py-3 rounded-full fbold  w-[70%] sm:w-auto hover:bg-white hover:text-[#0A1D3D] transition tracking-wide text-lg"
             >
               UPCOMING EVENTS
             </Link>
@@ -75,47 +72,44 @@ export default function Home() {
       </section>
 
       {/* Page1 : Explore the world of coding with us.*/}
-      <section className="pt-8 pb-15">
+      <section className="pt-4 pb-8 sm:pt-8 sm:pb-15">
         <Page1 />
       </section>
 
       {/* Page2 : Our Domains */}
-      <section className="pt-12 pb-15">
+      <section className="py-8 sm:pt-8 sm:pb-15">
         <Page2 />
       </section>
 
       {/* Page3 : Images and Gallary Yard */}
-      <section className="pt-12 pb-15">
+      <section className="py-8 sm:pt-8 sm:pb-15">
         <Page3 />
       </section>
 
       {/* Page4 : Projects */}
-      <section className="pt-12 pb-15">
+      <section className="py-8 sm:pt-8 sm:pb-15">
         <Page4 />
       </section>
 
       {/* Page5 : Leadership */}
-      <section className="pt-12 pb-15">
-        <Page5/>
+      <section className="py-8 sm:pt-8 sm:pb-15">
+        <Page5 />
       </section>
 
       {/* Page6 : Our Team*/}
-      <section className="pt-12 pb-15">
-        <Page6/>
+      <section className="py-8 sm:pt-8 sm:pb-15">
+        <Page6 />
       </section>
 
       {/* Page7 : Find your second home at Abhyudaya*/}
-      <section className="pt-12 pb-15">
-        <Page7/>
+      <section className="py-8 sm:pt-8 sm:pb-15">
+        <Page7 />
       </section>
 
       {/* Page8 : About and newsletter*/}
       <section className="">
-        <Page8/>
+        <Page8 />
       </section>
-      
-
-
     </Layout>
   );
 }
